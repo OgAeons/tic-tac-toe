@@ -88,3 +88,26 @@ h1 {
         margin-top: 10vh;
     }
 } 
+
+.winner {
+    display: none;
+    z-index: 5;
+    font-size: 4rem;
+    align-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    background-color: #ddff00;
+    /* opacity: 50%; */
+    position: absolute;
+    top: 32vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+/* .draw {
+    background-color: blue;
+} */
