@@ -44,3 +44,12 @@ const checkWinner = () => {
         }
     }
 }
+
+resetBtn.addEventListener("click", () => {
+    turn_O = true;
+    document.querySelector(".winner").style.display = "none"
+    allBoxes.forEach(function(box) {
+        box.classList.remove("disabled");
+        box.innerHTML = ""
+    })
+})
