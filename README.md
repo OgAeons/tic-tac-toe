@@ -1,2 +1,2 @@
 # tic-tac-toe
-Multiplayer tic tac toe game.
+A tic tac toe game.
